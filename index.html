@@ -45,19 +45,19 @@
             <a href="#about" class="inline-block mt-6 px-6 py-3 bg-teal-400 text-gray-900 font-semibold rounded-full shadow-md hover:bg-teal-500 transition duration-300">Download CV</a>
         </div>
         <div class="profile-pic mt-8 lg:mt-0">
-            <img src="pro-.jpg" alt="Mubashir Ali" class="w-36 h-36 lg:w-64 lg:h-64 rounded-full border-0 bg-gradient-to-r from-teal-400 via-pink-500 to-yellow-400 animate-gradientAnimation shadow-[#10e4e8]  shadow-lg lg:w-96 lg:h-96">
+            <img src="pro-.jpg" alt="Mubashir Ali" class="w-36 h-36 lg:w-64 lg:h-64 rounded-full border-0 bg-gradient-to-r from-teal-400 via-pink-500 to-yellow-400 animate-gradientAnimation shadow-[#10e4e8] shadow-lg lg:w-96 lg:h-96">
         </div>
     </section>
 
     <section id="about" class="flex flex-col items-center justify-center h-screen text-center px-6 lg:flex-row lg:text-left lg:items-center lg:justify-between lg:px-20 mb-52">
         <div class="profile-pic order-2 lg:order-1 mt-8 lg:mt-0 lg:mr-8">
-            <img src="pro-.jpg" alt="Mubashir Ali" class="w-36 h-36 lg:w-64 lg:h-64 rounded-full border-0 bg-gradient-to-r from-teal-400 via-pink-500 to-yellow-400 animate-gradientAnimation shadow-[#10e4e8]  shadow-lg lg:w-96 lg:h-96">
+            <img src="pro-.jpg" alt="Mubashir Ali" class="w-36 h-36 lg:w-64 lg:h-64 rounded-full border-0 bg-gradient-to-r from-teal-400 via-pink-500 to-yellow-400 animate-gradientAnimation shadow-[#10e4e8] shadow-lg lg:w-96 lg:h-96">
         </div>
         <div class="max-w-md lg:max-w-lg order-1 lg:order-2">
             <h1 class="text-4xl font-bold">About <span class="text-teal-400">Me</span></h1>
             <h2 class="text-3xl font-semibold mt-4">Full Stack Developer!</h2>
             <p class="text-lg mt-4">I am a skilled web designer with over 3 years of experience in the industry. My passion lies in creating captivating website designs and implementing them through frontend development. I take pride in staying up-to-date with current design trends and leveraging my creativity to produce visually appealing and user-friendly websites. Throughout my career, I have developed a deep understanding of user experience (UX) and user interface (UI) principles. By putting myself in the shoes of the end-users, I strive to create intuitive and seamless browsing experiences. I believe that a well-designed website should not only look visually appealing but also provide a smooth and enjoyable interaction for visitors. When starting a new project, I thoroughly research and analyze the target audience and the client's specific requirements.</p>
-            <a href="#contact" class="inline-block mt-6 px-6 py-3 bg-teal-400 text-gray-900 font-semibold  rounded-full shadow-md hover:bg-teal-500 transition duration-300">Hire Me</a>
+            <a href="#contact" class="inline-block mt-6 px-6 py-3 bg-teal-400 text-gray-900 font-semibold rounded-full shadow-md hover:bg-teal-500 transition duration-300">Hire Me</a>
         </div>
     </section>
 
@@ -67,7 +67,7 @@
         </div>
         <div class="flex flex-wrap justify-center gap-8">
             <!-- Service 1 -->
-            <div class="service-card w-full md:w-80 p-6 rounded-lg bg-gray-800 shadow-[#10e4e8]  shadow-lg transition-transform transform hover:-translate-y-2 hover:shadow-2xl">
+            <div class="service-card w-full md:w-80 p-6 rounded-lg bg-gray-800 shadow-[#10e4e8] shadow-lg transition-transform transform hover:-translate-y-2 hover:shadow-2xl">
                 <div class="text-center mb-6">
                     <i class="fas fa-laptop-code text-5xl text-teal-400"></i>
                 </div>
@@ -75,7 +75,7 @@
                 <p class="text-center">Professional web development services to build robust and scalable websites and applications.</p>
             </div>
             <!-- Service 2 -->
-            <div class="service-card w-full md:w-80 p-6 rounded-lg bg-gray-800 shadow-[#10e4e8]  shadow-lg transition-transform transform hover:-translate-y-2 hover:shadow-2xl">
+            <div class="service-card w-full md:w-80 p-6 rounded-lg bg-gray-800 shadow-[#10e4e8] shadow-lg transition-transform transform hover:-translate-y-2 hover:shadow-2xl">
                 <div class="text-center mb-6">
                     <i class="fas fa-paint-brush text-5xl text-teal-400"></i>
                 </div>
@@ -92,6 +92,16 @@
             </div>
         </div>
     </section>
-    ...
+
+    <script>
+        document.getElementById('menu-button').addEventListener('click', function() {
+            var mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.remove('hidden');
+            } else {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+    </script>
 </body>
 </html>
