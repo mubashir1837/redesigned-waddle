@@ -1,0 +1,99 @@
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0d0d0d;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.content {
+    max-width: 500px;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.content h2 {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+.content h3 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.content p {
+    font-size: 1em;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.content .dynamic-text {
+    color: #00bcd4;
+}
+
+.profile-pic {
+    margin-left: 50px;
+}
+
+.profile-pic img {
+    border: 10px solid transparent;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, #00bcd4, #ff005c, #ffdd00, #00ff6c);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+} */
